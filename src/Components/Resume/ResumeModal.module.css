@@ -10,39 +10,30 @@
 
 .modal {
   position: fixed;
-  top: 20vh;
-  left: 5%;
-  width: 90%;
-  background-color: #A9927D;
+  top: 5%;
+  bottom: auto;
+  width: auto;
+  background-color: #5E503F;
   padding: 1rem;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
-  font-family: 'Times New Roman', Times, serif;
 }
 
-.modal h3 {
-  color: #0A0908;
-  font-size: xx-large;
-  text-align: center;
-}
-
-.modal p {
-  color: #0A0908;
-  font-size: x-large;
-  text-align: center;
-}
-
-.modal img {
-  width: 300px;
-  height: 350px;
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 1%;
 }
 
 .button {
-  background-color: #5E503F;
+  background-color: #A9927D;
   border: none;
-  color: #F2F4F3;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -50,8 +41,23 @@
   float: right;
 }
 
+.downloadbutton {
+  background-color: #A9927D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
 .button:hover {
   cursor: pointer;
   background-color: #22333B;
 }
 
+.downloadbutton:hover {
+  cursor: pointer;
+  background-color: #22333B;
+}

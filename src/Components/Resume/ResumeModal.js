@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
-import styles from "./AboutMeModal.module.css";
-import picture from "../../Static/fitz.jpg"
+import styles from "./ResumeModal.module.css";
+import picture from '../../Static/resume.jpg';
 
 const Backdrop = (props) => {
   return <div className={styles.backdrop} onClick={props.onClose} />;
@@ -10,18 +10,19 @@ const Backdrop = (props) => {
 const ModalOverlay = (props) => {
   return (
     <div className={styles.modal}>
-      <h3>Hello</h3>
-      <p>My name is john</p>
+      <img className={styles.picture} src={picture} alt="Coding"></img>
 
 
-      <img src={picture} alt="My dog Fitz"></img>
 
+      <button className={styles.downloadbutton}>Download</button>
       <button className={styles.button} onClick={props.onClose}>OK</button>
+      
+
     </div>
   );
 };
 
-const AboutMeModal = (props) => {
+const ResumeModal = (props) => {
   return (
     <Fragment>
         <Backdrop onClose={props.onClose}/>
@@ -30,4 +31,4 @@ const AboutMeModal = (props) => {
   );
 };
 
-export default AboutMeModal;
+export default ResumeModal;

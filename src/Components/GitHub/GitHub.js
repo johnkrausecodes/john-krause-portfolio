@@ -1,7 +1,7 @@
 import React from "react";
 
 import Card from "../UI/Card";
-import picture from '../../Static/photo-1555952494-efd681c7e3f9.jpg';
+import picture from '../../Static/coding.jpg';
 import styles from './GitHub.module.css';
 
 const openGitHub = () => {
