@@ -21,7 +21,7 @@ const AboutMe = () => {
   return (
     <Fragment>
       <Card onClick={onClickHandler}>
-        <h2>About Myself</h2>
+        <h2>About Me</h2>
         <img src={picture} className={styles.picture} alt="Casual me"></img>
       </Card>
       {modalIsShown && <AboutMeModal onClose={onCloseHandler}/>}

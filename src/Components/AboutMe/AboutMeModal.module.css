@@ -10,7 +10,10 @@
 
 .modal {
   position: fixed;
-  top: 20vh;
+  bottom: 0;
+  overflow: auto;
+  max-height: 1200px;
+  top: 2%;
   left: 5%;
   width: 90%;
   background-color: #A9927D;
@@ -19,24 +22,32 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .modal h3 {
+  color: #22333B;
+  font-size: x-large;
+  text-align: center;
+  border-bottom: double;
+}
+
+.modal h4 {
   color: #0A0908;
-  font-size: xx-large;
+  font-size: large;
   text-align: center;
 }
 
 .modal p {
   color: #0A0908;
-  font-size: x-large;
+  font-size: medium;
   text-align: center;
 }
 
 .modal img {
-  width: 300px;
-  height: 350px;
+  width: 25%;
+  height: auto;
+  max-height: 600px;
 }
 
 .button {

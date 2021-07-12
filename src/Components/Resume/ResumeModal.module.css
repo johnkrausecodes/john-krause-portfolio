@@ -10,9 +10,12 @@
 
 .modal {
   position: fixed;
-  top: 5%;
-  bottom: auto;
-  width: auto;
+  bottom: 0;
+  overflow: auto;
+  max-height: 1200px;
+  top: 2%;
+  left: 5%;
+  width: 90%;
   background-color: #5E503F;
   padding: 1rem;
   border-radius: 14px;
@@ -25,7 +28,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 100%;
+  height: auto;
+  max-width: 900px;
   width: 100%;
   padding-bottom: 1%;
 }
@@ -39,6 +43,7 @@
   text-decoration: none;
   font-size: 16px;
   float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .downloadbutton {
@@ -49,6 +54,8 @@
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
   
 }
 
